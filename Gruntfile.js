@@ -30,6 +30,7 @@ module.exports = function (grunt) {
       },
       dist: {
         src: [
+          'lib/text-op.js',
           'lib/text-operation.js',
           'lib/cursor.js',
           'lib/wrapped-operation.js',
